@@ -1,0 +1,125 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+/* Below Are all stylings associated with the twittler web App */
+
+
+body {
+	background-color: #C0C0C0;
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 300%;
+}
+
+h2 {
+	font-weight: none;
+	font-size: 200%;
+	font-family: fantasy;
+}
+
+/*.button {
+
+	background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  	background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  	background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  	background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  	background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+	-webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	text-shadow: 3px 2px 1px #9daef5;
+	  -webkit-box-shadow: 6px 5px 24px #666666;
+	  -moz-box-shadow: 6px 5px 24px #666666;
+	  box-shadow: 6px 5px 24px #666666;
+	font-family: Arial;
+	  color: #fafafa;
+	  font-size: 27px;
+	  padding: 19px;
+	  text-decoration: none;
+
+    position:relative;
+
+
+}*/
+
+.button {
+	background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  	background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  	background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  	background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  	background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+	-webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	text-shadow: 3px 2px 1px #9daef5;
+	  -webkit-box-shadow: 6px 5px 24px #666666;
+	  -moz-box-shadow: 6px 5px 24px #666666;
+	  box-shadow: 6px 5px 24px #666666;
+	font-family: Arial;
+	  color: #fafafa;
+	  font-size: 27px;
+	  margin-left: 27px;
+	  text-decoration: none;
+
+}
+
+.inputs {
+	padding-left: 160px;
+}
+
+.container {
+	padding-top: 5%;
+}
+
+.userHandle {
+	display: none;
+}
+
+.handle:hover {
+	color: blue;
+}
+
